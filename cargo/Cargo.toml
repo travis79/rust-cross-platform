@@ -1,0 +1,12 @@
+[package]
+name = "greetings"
+version = "0.1.1"
+authors = ["Travis Long <trav.long79@gmail.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+name = "greetings"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
